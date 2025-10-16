@@ -1,0 +1,79 @@
+.event-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.event-table th {
+  background-color: #4b6cb7;
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+
+.event-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.event-table tr:hover {
+  background-color: #f4f7ff;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icon-btn.edit {
+  color: #3b82f6;
+}
+
+.icon-btn.delete {
+  color: #ef4444;
+}
+
+.icon-btn:hover {
+  transform: scale(1.1);
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 15px;
+  background-color: #f9fafb;
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  border-radius: 8px;
+  width: 350px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.search-icon {
+  color: #4b5563;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background: transparent;
+}
+
+.search-input::placeholder {
+  color: #9ca3af;
+}

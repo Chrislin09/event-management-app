@@ -1,0 +1,22 @@
+.app-container {
+  font-family: sans-serif;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.section {
+  margin-bottom: 40px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #ccc;
+}
