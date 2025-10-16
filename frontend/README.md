@@ -2,7 +2,7 @@
 
 A full-stack web application to manage events, attendees, ticket sales, and import event data via CSV. Built using **React** for frontend and **Flask + SQLAlchemy** for backend.
 
----
+--- 
 
 ## **Features**
 
